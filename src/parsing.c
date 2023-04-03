@@ -46,8 +46,6 @@ int parsing(int ac, char **av, t_philo *philo)
         philo->time_eat = ft_atoi(av[3]);
         philo->time_sleep = ft_atoi(av[4]);
         philo->nb_must_eat = ft_atoi(av[5]);
-
-        
         return (1);
     }
     return (0);

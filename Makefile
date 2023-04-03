@@ -2,7 +2,8 @@ NAME = philosophers
 
 SRCS =	src/main.c \
 		src/parsing.c \
-		src/other.c
+		src/other.c \
+		src/thread.c
 		
 		
 

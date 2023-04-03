@@ -6,10 +6,12 @@ int main(int ac, char **av)
 
     philo = malloc(sizeof(t_philo));
 
+    jsp();
+    /*
     if (parsing(ac, av, philo) == 1)
-        printf("le parsing est good\n");
+        ft_putstr("le parsing est good\n");
     else
-        printf("le parsing est faux\n");
+        ft_putstr("error\n");*/
 
     return(0);
 }
