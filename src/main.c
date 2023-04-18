@@ -9,7 +9,7 @@ int main(int ac, char **av)
     philo = malloc(sizeof(t_philo));
 
     init(av, philo);
-    jsp();
+    launch(philo);
     /*
     if (parsing(ac, av, philo) == 1)
         ft_putstr("le parsing est good\n");

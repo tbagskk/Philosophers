@@ -19,7 +19,9 @@ typedef struct s_philo
 	pthread_mutex_t			dead;
 	pthread_mutex_t			eat;
 	pthread_mutex_t			finish;
+    pthread_mutex_t			fourchette;
     pthread_t       thread_id;
+    int *id;
 
     pthread_mutex_t mutex;
 }              t_philo;
@@ -29,7 +31,9 @@ int ft_atoi(const char *str);
 void	ft_putstr(char *str);
 
 void	*thread_routine(void *data);
-int jsp(); 
+
+void activity(t_philo *philo);
 void init();
+int launch(t_philo *philo);
 
 #endif
